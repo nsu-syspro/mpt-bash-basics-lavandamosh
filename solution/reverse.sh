@@ -1,0 +1,9 @@
+lines=()
+
+while IFS= read -r line; do
+    lines+=("$line")
+done
+
+for ((i=${#lines[@]}-1; i>=0; i--)); do
+    echo "${lines[i]}"
+done
