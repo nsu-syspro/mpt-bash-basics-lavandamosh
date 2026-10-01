@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 lines=()
 
 while IFS= read -r line; do

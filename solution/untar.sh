@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 ARCHIVE="$1"
 TARGET_DIR="${ARCHIVE}.unpacked"
 

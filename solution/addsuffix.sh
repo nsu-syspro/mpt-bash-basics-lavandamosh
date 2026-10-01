@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 SUFFIX="$1"
 
 shift
