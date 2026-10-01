@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 SUFFIX="$1"
 
-shift
-
-for FILE in "$@"; do
-    if [ -f "$FILE" ]; then
+for FILE in "${@:2}"; do
+    if [ -e "$FILE" ]; then
         mv "$FILE" "${FILE}${SUFFIX}"
     fi
 done
+
+exit 0
